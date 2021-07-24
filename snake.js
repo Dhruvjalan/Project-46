@@ -20,7 +20,7 @@ function Snake(){
 
             if(d<1){
                           
-                if(this.total>1){
+                if(this.total>=1&&frameCount>3){
                 endsound.play()
                 console.log("end")
                }
